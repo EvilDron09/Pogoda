@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    .container
+        .row
+            .col-sm-3
+                .input-group.mb-3
+                    input.form-control(type="text", placeholder="Ведіть місто", aria-describedby="form_weather")
+                    button.btn.btn-outline-secondary( type="button", id="form_weather") Пошук
+            .col-sm-9
+                #weather
+
+block js
+    //script(src="https://api.openweathermap.org/data/2.5/weather?&appid={6e9af9a332e87740a75a1a90655577e7}")
+    script(src="/javascripts/main.js")
