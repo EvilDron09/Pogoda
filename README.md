@@ -2,7 +2,9 @@
 
 Погода відображається через OpenWeather API.
 
-Список інструментів: JS, Express, Bootstrap, API
+Список інструментів: JS, Express, Bootstrap, API.
+
+Треба встановити package.json
 
 Запуск проєкту: npm start (nodemon - для роботи з кодом без вимкнення серверу).
 
